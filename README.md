@@ -1,1 +1,1 @@
-# Master
+# Master is a hero
