@@ -1,0 +1,156 @@
+NA10-CS-1 - 172.31.58.5 - Windows
+NA10-CS-1 - 172.31.131.191
+NA10-CS-2 - 172.31.132.119
+NA10-PDS-1 - 172.31.131.42
+NA10-PDS-2 - 172.31.132.232
+NA10-TDS-1 - 172.31.131.70
+NA10-TDS-2 - 172.31.132.74
+
+
+NA20-CS-1 - 172.31.131.125
+NA20-CS-2 - 172.31.132.126
+NA20-PDS1 - 172.31.131.24 -->CD
+NA20-PDS2 - 172.31.132.219
+NA20-TDS1 - 172.31.131.145
+NA20-TDS2 - 172.31.132.8
+WNA20-CUS-SER - 172.31.60.19
+
+LNA30-CS-1 - 172.31.131.84
+LNA30-CS-2 - 172.31.132.59
+LNA30-TDS-1 - 172.31.131.187
+LNA30-TDS-2 - 172.31.132.53
+LNA30-PDS-1 - 172.31.131.179 - CD
+LNA30-PDS-2 - 172.31.132.201 
+WNA30-CUS-SER 172.31.55.227
+
+LNA40-CS-1   172.31.131.123
+LNA40-CS-2   172.31.132.65
+LNA40-PDS-1  172.31.131.18
+LNA40-TDS-1  172.31.131.243
+
+LNA50-CS-1 -> 172.31.131.99
+LNA50-CS-2 ->172.31.132.141
+LNA50-CS-3 -> 172.31.133.246
+LNA50-PDS-1 -> 172.31.131.78
+LNA50-PDS-2 -> 172.31.132.22
+LNA50-TDS-1 -> 172.31.131.251
+LNA50-TDS-2 -> 172.31.132.30
+WNA50-CUS-SER -  172.31.55.25
+
+LNA60-CS-1  -   172.31.131.67
+WNA60-CUS-SER  -   172.31.131.164
+
+LNA70-CS-1 -> 172.31.131.175
+LNA70-CS-2 -> 172.31.132.196
+LNA70-PDS-1 -> 172.31.131.149
+LNA70-PDS-2 -> 172.31.132.131
+LNA70-TDS-1 -> 172.31.131.71
+LNA70-TDS-2 -> 172.31.132.206
+WNA70-->172.31.131.136
+
+NA90-CS-1-->172.31.131.203
+NA90-CS-2-->172.31.132.227
+NA90-TDS-1--->172.31.131.225
+NA90-TDS-2--->172.31.132.9
+WNA90-CUS-SER  --->172.31.131.249
+
+LNA100-CS-1 ->  172.31.131.211
+LNA100-CS-2 ->  172.31.132.198
+LNA100-TDS-1 -> 172.31.131.195
+LNA100-TDS-2 -> 172.31.132.71
+WNA100-CUS-SER -> 172.31.131.181
+
+
+
+NA500CS-1 172.31.131.215
+LNA500-PDS-1 172.31.131.121
+LNA500-TDS-1 172.31.131.137
+NA500-CS-2/172.31.132.180
+NA500-TDS-2/ 172.31.132.149
+NA500-PDS-2/172.31.132.216
+
+
+UTILITY - 172.31.55.58
+UTIL1 - 172.31.61.214 
+UTIL2 - 172.31.45.95
+LUTIL2 - 172.31.132.202
+LUTIL1  - 172.31.131.193
+INT-APP-001 - 172.31.131.103
+INT-APP-002 - 172.31.132.241
+LNA-INT-APP - 172.31.58.223
+DAS1 - 172.31.131.63
+DAs2 - 172.31.132.230
+TRS -   172.31.56.35
+LRCS-1 - 172.31.131.20
+LRCS-2 - 172.31.132.193
+QA  -   172.31.50.112
+QA1(LINUX) - 172.31.131.170
+DEVQA - 10.5.3.78	
+
+Hostname: KNA100-CS-1
+
+IP Address: 172.31.131.176
+
+ 
+
+Hostname: KNA100-CS-2
+
+IP Address: 172.31.132.52
+
+ 
+
+Hostname: KNA100-TDS-1
+
+IP Address: 172.31.131.227
+
+ 
+
+Hostname: KNA100-TDS-2
+
+IP Address: 172.31.132.165
+
+
+https://na100.clclient.com/mtWorkflowService/
+https://na100.clclient.com/emailservices/
+
+fields  @message| filter @message like "org.postgresql.util.PSQLException:"|limit 9999|sort @timestamp desc
+12
+
+:LOG: duration:
+
+
+96906--> sangaran is working
+96630---> going to update a patch
+96414---> added in CPL
+ 
+TRUC-213
+
+ZC-48
+
+
+
+Two-Factor Authentication Backup Codes
+
+145762
+335194
+256987
+871960
+790997
+218266
+180938
+647372
+456681
+554691
+
+
+AWS-REC-001	172.31.48.5
+ASK-REC-I	10.5.3.5
+
+"2020-12-01 16:14:29 DEBUG [com.ds] (pool-9-thread-182) CallRecorder.fetchAudioFileFromVoipMonitor()  xConnectLeaderSignature=vHaXdbTaNqx3b8Y5+vNEweMD4N5B0XJLzLvwNtvqKTA=, payLoad={"crm_org_id":"00D3000000001lK","resource_name":"37d61081-2d76-446d-bbfd-bff8348a232c.wav","bucket_name":"1478-00d3000000001lk","product_type":"TD","phone_server":"10.5.3.19","sip_call_id":"0671c11b52c27f030a0b0d0f57c9ae04@10.101.101.90:5060","da_call_duration":"7","is_two_party_consent_state":false,"recording_type":"DA","call_start_time":"Tue Dec 01 16:14:13 EST 2020","transfer_start_time":"2020-12-01_16:14:20.289","transfer_end_time":"2020-12-01_16:14:20.305","session_start_time":"2020/12/01 09:02:34 PM GMT","browser_notified_time":"12/01/2020 16:14:21.201","talker_id":"7170"}
+
+Account ID: 242986930570
+
+https://share.vidyard.com/watch/6esKXCCLST3xdczHC1ii2E  ---> Report FreshDEesk
+
+
+											
